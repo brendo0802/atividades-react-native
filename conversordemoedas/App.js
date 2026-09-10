@@ -67,7 +67,7 @@ export default function App() {
       <StatusBar barStyle="light-content" />
 
       <LinearGradient
-        colors={['#e40788ff', '#fd00a9ff', '#18181D']}
+        colors={['#e40788ff', '#020101ff', '#18181D']}
         style={styles.gradientBackground}
       >
         <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
@@ -115,7 +115,7 @@ export default function App() {
               activeOpacity={0.85}
             >
               <LinearGradient
-                colors={(!amount || loading) ? ['#2A2A30', '#2A2A30'] : ['#FF007F', '#00F0FF']}
+                colors={(!amount || loading) ? ['#2A2A30', '#2A2A30'] : ['#00aeffff', '#00F0FF']}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 0 }}
                 style={styles.convertButtonGradient}

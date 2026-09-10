@@ -1,11 +1,11 @@
 export const colors = {
   background: '#1111e7ff',           
-  text: '#f709e3ff',
+  text: '#ece2ecff',
   textSecondary: '#000000ff',        
   inputBackground: '#01c98dff',     
-  cardBackground: '#f1094fff',      
+  cardBackground: '#000201ff',      
   cardBorder: '#1111d8ff',          
   primary: '#08eafaff',           
-  secondary: '#FF007F',           
+  secondary: '#b8e4c9ff',           
   disabled: '#fa0ce6ff'
 };
